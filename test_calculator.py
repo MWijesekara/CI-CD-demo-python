@@ -16,3 +16,6 @@ def test_subtract_negative():
 
 def test_add_fail():
     assert add(2, 2) == 5  # This test is expected to fail
+
+def test_new():
+    assert subtract(2,2) == 3
