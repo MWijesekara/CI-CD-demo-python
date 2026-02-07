@@ -13,9 +13,3 @@ def test_add_negative():
 
 def test_subtract_negative():
     assert subtract(-1, -1) == 0
-
-def test_add_fail():
-    assert add(2, 2) == 5  # This test is expected to fail
-
-def test_new():
-    assert subtract(2,2) == 3
